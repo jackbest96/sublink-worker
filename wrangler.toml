@@ -1,11 +1,14 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "sublink-worker"
+name = "sublink-worker-best"
 main = "src/worker.jsx"
-compatibility_date = "2024-07-24"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-07-01"
 
 kv_namespaces = [
   { binding = "SUBLINK_KV", id = "b46cc38d5ec94b92bc94951cac1c83c6" }
+]
+
+routes = [
+  { pattern = "jackbest96.uk/*", custom_domain = true }
 ]
 
 [assets]
