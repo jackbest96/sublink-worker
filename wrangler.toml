@@ -8,7 +8,7 @@ kv_namespaces = [
 ]
 
 routes = [
-  { pattern = "jackbest96.uk/*", custom_domain = true }
+  { pattern = "jackbest96.uk", custom_domain = true }
 ]
 
 [assets]
